@@ -76,7 +76,7 @@ def on_click(event):
             if row > 0 and column > 0:
                 if bombfield[row-1][column-1] == 1:
                     totalBombs = totalBombs + 1
-            if row < 9 and column > o:
+            if row < 9 and column > 0:
                 if bombfield[row+1][column-1] == 1:
                     totalBombs = totalBombs + 1
             if row > 0 and column < 9:
